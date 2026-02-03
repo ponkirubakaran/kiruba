@@ -1,0 +1,19 @@
+<script>
+function amstorng(){
+var n=parseInt(prompt("enter the num:"))
+var sum=0;
+var b=n
+while(b>0){
+var rem=b%10;
+sum=sum+(rem*rem*rem);
+b=parseInt(b/10);
+}
+if(n==sum){
+document.write("amstorng num"+sum);
+}
+else{
+document.write("not amstorng num")
+}
+}
+amstorng();
+</script>

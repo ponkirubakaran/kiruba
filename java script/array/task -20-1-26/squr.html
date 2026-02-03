@@ -1,0 +1,9 @@
+<script>
+let a=[3,7,4,9,6]
+let b=a.map(n=>Math.pow(n,2));
+document.write("squras:"+b+"<br>");
+let c=b.filter(n=>n<50);
+document.write("square<50:"+c+"<br>");
+let d=c.reduce((acc,curr)=>acc+curr,0);
+document.write("sum of squares"+d);
+</script>

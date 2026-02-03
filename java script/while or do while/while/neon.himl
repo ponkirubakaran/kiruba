@@ -1,0 +1,17 @@
+<script>
+var n=parseInt(prompt("enter :"));
+var sum=0;
+var i=1;
+while(n>0){
+rem=n%10;
+sum=sum+rem
+n=parseInt(n/10);
+i++
+}
+if(n==sum){
+document.write(n+"abund number");
+}
+else{
+document.write(n+"not abund number");
+}
+</script>

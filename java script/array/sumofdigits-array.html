@@ -1,0 +1,14 @@
+<script>
+var i=0;
+var a=[51,22,33];
+for(i=0;i<a.length;i++){
+var n=a[i];
+var sum=0;
+while(n>0){
+var rem=n%10;
+sum=sum+rem;
+n=parseInt(n/10);
+}
+document.write(sum+"<br>");
+}
+</script>

@@ -1,0 +1,17 @@
+<script>
+var a=parseInt(prompt("enter the number"));
+var i=1;
+var n=a;
+while(a>0){
+let rem=n%10;
+i=(i*10)+rem;
+n=parseInt(n/10);
+}
+if(a==i)
+{
+document.write(a+"ok")
+}
+else{
+document.write(a+"not")
+}
+</script>

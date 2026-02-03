@@ -1,0 +1,17 @@
+<script>
+var size=parseInt(prompt("enter th number"))
+var a=[];
+for(var j=0;j<size;j++){
+a[j]=parseInt(prompt("enter:"+(j+1)+":"));
+}
+for(var j=0;j<a.length;j++){
+var n=a[j]
+var f=1;
+var i=1;
+while(i<=n){
+f=f*i;
+i++;
+}
+document.write("factorial="+f+"<br>");
+}
+</script>
